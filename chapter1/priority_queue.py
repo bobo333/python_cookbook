@@ -8,6 +8,8 @@ class PriorityQueue(object):
         self._index = 0
 
     def push(self, item, priority):
+        # the index is used for tie-breakers of equal priority. It maintains the order in which items were inserted.
+        # It is particularly useful when unhashable (objects or dictionaries) items are inserted.
         heapq.heappush(self._queue, (-priority, self._index, item))
         self._index += 1
 
