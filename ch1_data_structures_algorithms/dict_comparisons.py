@@ -23,6 +23,6 @@ print(a.items() & b.items())
 
 
 # remove some keys to make a new dictionary
-c = {key:a[key] for key in a.keys() - {'x'}}
+c = {key: a[key] for key in a.keys() - {'x'}}
 print("new dict:")
 print(c)

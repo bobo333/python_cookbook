@@ -78,4 +78,3 @@ merged = ChainMap(a, b)
 
 a['x'] = 42
 print(merged['x'])  # will print 42
-

@@ -1,4 +1,3 @@
-import sys
 CHUNK_SIZE = 8192
 
 

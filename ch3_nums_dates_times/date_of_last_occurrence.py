@@ -2,7 +2,7 @@
 
 from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
-from dateutil.rrule import *
+from dateutil.rrule import FR
 
 weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 

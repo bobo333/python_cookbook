@@ -10,6 +10,7 @@ odds = (x for x in numbers if x % 2)
 for odd in odds:
     print(odd)
 
+
 # can use filter built-in function
 def is_odd(x):
     return x % 2

@@ -47,4 +47,3 @@ d = relativedelta(b, a)
 print(repr(d))
 print(d.months)
 print(d.days)
-
